@@ -1,8 +1,8 @@
 import { Grid } from '@mui/material';
 
-import GoodsItem from './GoodsItem';
+import {GoodsItem} from './GoodsItem';
 
-const GoodsList = (props) => {
+export const GoodsList = (props) => {
     const { goods, setOrder } = props;
 
     return (
@@ -12,6 +12,4 @@ const GoodsList = (props) => {
             ))}
         </Grid>
     );
-};
-
-export default GoodsList;
+}

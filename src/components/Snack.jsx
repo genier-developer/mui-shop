@@ -1,6 +1,6 @@
 import { Alert, Snackbar } from "@mui/material"
 
-function Snack({isOpen, handleClose = Function.prototype}) {
+export function Snack({isOpen, handleClose = Function.prototype}) {
     return (
         <Snackbar
             open={isOpen}
@@ -13,5 +13,3 @@ function Snack({isOpen, handleClose = Function.prototype}) {
         </Snackbar>
     )
 }
-
-export default Snack

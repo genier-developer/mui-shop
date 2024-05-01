@@ -1,7 +1,7 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Grid, Typography } from "@mui/material";
 
 
-const GoodsItem = (props) => {
+export const GoodsItem = (props) => {
     const { name, price, poster, setOrder } = props;
 
     return (
@@ -44,6 +44,4 @@ const GoodsItem = (props) => {
             </Card>
         </Grid>
     );
-};
-
-export default GoodsItem;
+}

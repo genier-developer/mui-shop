@@ -1,7 +1,7 @@
 import { AppBar, Badge, IconButton, Toolbar, Typography } from "@mui/material"
 import { ShoppingBasket } from "@mui/icons-material"
 
-function Header({handleCart, orderLen}) {
+export function Header({handleCart, orderLen}) {
     return (
         <AppBar position="static">
             <Toolbar>
@@ -27,5 +27,3 @@ function Header({handleCart, orderLen}) {
         </AppBar>
     )
 }
-
-export default Header

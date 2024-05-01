@@ -1,8 +1,8 @@
 import { Divider, Drawer, List, ListItem, ListItemIcon, ListItemText, Typography } from "@mui/material";
 import { ShoppingBasket } from "@mui/icons-material";
-import BasketItem from "./BasketItem";
+import {BasketItem} from "./BasketItem";
 
-const Basket = (props) => {
+export const Basket = (props) => {
     const {
         cartOpen,
         closeCart = Function.prototype,
@@ -48,5 +48,3 @@ const Basket = (props) => {
         </Drawer>
     )
 }
-
-export default Basket

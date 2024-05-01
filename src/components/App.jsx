@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
-import Basket from './Basket';
-import Header from './Header';
-import GoodsList from './GoodsList';
-import Search from './Search';
-import Snack from './Snack';
+import {Basket} from './Basket';
+import {Header} from './Header';
+import {GoodsList} from './GoodsList';
+import {Search} from './Search';
+import {Snack} from './Snack';
 
 import { goods } from '../data/goods';
 import { Container } from '@mui/material';

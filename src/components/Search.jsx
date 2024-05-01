@@ -1,6 +1,6 @@
 import { TextField } from "@mui/material";
 
-const Search = (props) => {
+export const Search = (props) => {
     const { onChange, value } = props;
 
     return <TextField
@@ -14,6 +14,4 @@ const Search = (props) => {
             mb:"1.5rem"
         }}
     />;
-};
-
-export default Search;
+}

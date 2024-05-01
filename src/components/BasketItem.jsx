@@ -1,7 +1,7 @@
 import { IconButton, ListItem, Typography } from "@mui/material";
 import { Close } from "@mui/icons-material";
 
-const BasketItem = ({removeFromOrder, id, name, price, quantity}) => {
+export const BasketItem = ({removeFromOrder, id, name, price, quantity}) => {
     return (
         <ListItem>
             <Typography
@@ -16,6 +16,4 @@ const BasketItem = ({removeFromOrder, id, name, price, quantity}) => {
             </IconButton>
         </ListItem>
     );
-};
-
-export default BasketItem;
+}
